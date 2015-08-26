@@ -1,4 +1,4 @@
-#Simple Translator which converts 3 bit arm code to 64 bit code
+#Simple Translator which converts 32 bit arm code to 64 bit code
 
 ###############################################################
 
