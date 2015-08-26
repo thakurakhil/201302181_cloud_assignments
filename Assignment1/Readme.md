@@ -1,8 +1,8 @@
-#Simple Translator which converts 32 bit arm code to 64 bit code
+#Simple Translator which converts 32 bit arm code to 64 bit code for given hello world program
 
 ###############################################################
 
-##commands:
+##Commands:
 
 ###executing 32_bit.asm:
 
@@ -22,6 +22,13 @@ ld 64_bit.o -o 64_bit_run
 ./64_bit_run
 
 
+###executing transaltor.cpp
+
+g++ translator.cpp
+
+./a.out
+
+
 ###executing 64_bit_conv.asm:
 
 nasm -f elf64 64_bit_conv.asm
@@ -31,9 +38,5 @@ ld 64_bit_conv.o -o 64_bit_conv_run
 ./64_bit_conv_run
 
 
-###executing transaltor.cpp
 
-g++ translator.cpp
-
-./a.out
 
