@@ -1,4 +1,4 @@
-#Simple Translator which converts 32 bit arm code to 64 bit code for given hello world program
+#Simple Translator which converts 32 bit assembly code to 64 bit code for given hello world program
 
 ###############################################################
 

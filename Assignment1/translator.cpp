@@ -1,6 +1,6 @@
-#include<iostream>
 #include<fstream>
 #include<string.h>
+#include<iostream>
 using namespace std;
 
 void trim(string& s)
