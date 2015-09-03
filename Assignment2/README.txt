@@ -1,4 +1,4 @@
-A custom network topology using mininet python APIs as given below. 
+A custom network topology using mininet python APIs. 
 
 To run ->
 
@@ -19,4 +19,7 @@ The following functionality is also implemented:
 2)  All the communication should be throttled to 1 mbps for odd hosts and 2 mbps 
 for even hosts
 
+Youtube link  : https://www.youtube.com/watch?v=RcEm-BRr-MY&feature=youtu.be
 
+201302181
+Akhil
