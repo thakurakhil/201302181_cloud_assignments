@@ -1,4 +1,8 @@
 A custom network topology using mininet python APIs as given below. 
+
+To run ->
+
+sudo python topology.py x y
  
 The program takes two command line arguments as input:
 No. of hosts:  X 
