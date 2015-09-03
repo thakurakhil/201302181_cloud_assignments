@@ -1,15 +1,24 @@
-A custom network topology using mininet python APIs. 
+#A custom network topology using mininet python APIs. 
 
 To run ->
 
 sudo python topology.py x y
- 
+
+
+###Here the code tests the topology by pingall , showing the communication between hosts and to check bandwidth (h1, h3) and (h2,h4) are chosen for simplicity purpose
+
+
+##Youtube link  : https://www.youtube.com/watch?v=RcEm-BRr-MY&feature=youtu.be
+
+
+
+
+##problem statement:
+
+
 The program takes two command line arguments as input:
 No. of hosts:  X 
 No. of switches: Y
-
-Used: Oracle Virtual Box
-Downloaded Mininet.vmdk file from mininet github page.
 
 And creates a custom network topology with Y Switches where each switch has X hosts.
 
@@ -19,7 +28,7 @@ The following functionality is also implemented:
 2)  All the communication should be throttled to 1 mbps for odd hosts and 2 mbps 
 for even hosts
 
-Youtube link  : https://www.youtube.com/watch?v=RcEm-BRr-MY&feature=youtu.be
+
 
 201302181
 Akhil
